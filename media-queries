@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+
+<header>
+
+    <head>
+        <tag class="pink-border"> CSS opdracht </tag>
+      
+        <title> Opdracht door Michelle </title>
+        <link rel="stylesheet" type="text/css" href="styles2.css">
+        
+        <style>    
+              .pink-border {
+        border: 5px solid rgb(247, 114, 203);
+              }
+              .yellow-border {
+        border: 5px solid rgb(242, 245, 56);
+             }
+             .blue-border {
+        border: 5px solid rgb(33, 81, 240);
+             }
+             .orange-border {
+        border: 5px solid rgb(250, 139, 48);
+             }
+             .red-border {
+        border: 5px solid rgb(247, 3, 3);
+             }
+
+
+    h1 {
+        margin: 50px;
+    }
+    h2 {
+        margin: 50px;
+    }
+    p {
+        margin: 50px
+    }
+    div {
+        margin: 50; 
+    }
+    hr {
+        margin: 50px; 
+    }
+    h1, h2, p, div {
+        background: rgb(245, 169, 222);
+    }
+
+
+
+    h1 {
+        padding: 50px; /* apply to all four sides */
+    }
+    h2 {
+        padding: 50px;
+    }
+    p {
+        padding: 25px 75px; /* vertical | horizontal */
+    }
+    div {
+        padding: 25px 50px 75px; /* top | horizontal | bottom */
+    }
+    pre {
+        padding: 25px 50px 75px 100px; /* top | right | bottom | left */
+    }
+    h1, h2, p, div, pre {
+        background: rgb(165, 26, 102);
+    }
+          
+    #green-background {
+    background-color: rgb(78, 128, 78);
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    h1, h2, p, div, pre text {
+        color: blue;
+    }
+
+</style>
+
+    </head>
+
+</header>
+<main>
+    <body>
+    <h1 class="yellow-border">CSS oefening</h1>
+
+    <h1 class="orange-border">test</h1>
+    
+    <hr>
+    <h2 class="blue-border"> Learning Styles </h2>
+    <hr>
+
+      <p class="black-border">Paragraaf 1</p>
+      
+      <p class="pink-border" id="green-background">voorbeeldtekst voorbeeldtekst voorbeeldtekst voorbeeldtekst</p>
+
+
+      <p class="red-border">Things i like </p>
+
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+      
+
+     
+
+    </body>    
+</main>    
+
+
+
+<footer></footer> 
+</html>
